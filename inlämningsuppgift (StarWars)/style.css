@@ -1,0 +1,72 @@
+body {
+    background-image:url(./img/Star\ Wars\ Death\ Star\ Wallpaper\ 1920x1080\ Star\ Wars\ Death\ Star.jpg) ;
+}
+
+
+#movie {
+    width: auto;
+    height: auto;
+    border: 1px black;
+    
+    text-align: center;
+    
+}
+
+#movie, h3 {
+    color: white;
+}
+
+
+.movie-modal-wrapper{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.movie-modal{ 
+width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-header span {
+  cursor: pointer;
+}
+
+.modal-header {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .modal-header span {
+    cursor: pointer;
+  }
+  
+  #movie-modal-content {
+    padding: 10px;
+    background-color: blanchedalmond;
+  }
+  
+  #movie-modal-content img {
+    width: 100%;
+    height: 20vh;
+    object-fit: cover;
+  }
+/*  <!--LightSaber loading bar--> */
+
+/*  <!--END LightSaber loading bar--> */
